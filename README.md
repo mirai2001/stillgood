@@ -8,6 +8,7 @@ Resale platform enabling users to buy and sell second-hand items.
 * [Features](#features)
 
 ## Demo
+the thumbnail is link to the video
 [![thumbnail_alt](https://img.youtube.com/vi/jGtYaj06EzY/0.jpg)](https://www.youtube.com/watch?v=jGtYaj06EzY)
 
 ## Setup
