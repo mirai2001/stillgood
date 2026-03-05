@@ -13,7 +13,6 @@ the thumbnail is link to the video
 
 ## Setup
 #### Make sure:
-- You have installed Python 3.8 or higher.
 - You have a working internet connection.
 
 ### 1. Open a terminal in a folder and `clone` the repository:
@@ -26,9 +25,9 @@ cd stillgood
 ```
 ### 3. Create a virtual environment:
 ```
-python -m venv venv
+uv venv .venv --python 3.11
 ```
-### 4. Activate the virtual environment:
+### 4. Activate the virtual environment (if needed):
 #### On Windows:
 ```
 venv\Scripts\activate
@@ -39,7 +38,7 @@ source venv/bin/activate
 ```
 ### 5. Install the required packages:
 ```
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 To start the application, ensure you are **in the project directory** and the **virtual environment is activated**. Then run:
 ```
